@@ -3,11 +3,9 @@ import home from "../assets/video/home2.mp4";
 import { FaReact } from "react-icons/fa";
 import { SiMongodb, SiRazorpay, SiSocketdotio } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
-import homeimg from "../assets/img/homeimg.png";
-import landinglogo from "../assets/img/landing-logo.webp";
 import feature2 from "../assets/img/feature2.png";
 import feature1 from "../assets/img/feature-1.png";
-import delogo from "../assets/img/delogo.png";
+import delogo from "../assets/img/deLogo.png";
 
 function Home2() {
   return (
