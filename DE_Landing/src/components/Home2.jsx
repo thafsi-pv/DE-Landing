@@ -140,17 +140,17 @@ function Home2() {
       </section>
       {/* <!-- End block --> */}
       {/* <!-- Start block --> */}
-      <section class="bg-white ">
-        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
+      <section class="bg-gradient-to-r from-gray-200 to-gray-100">
+        <div class="max-w-screen-xl px-4 pb-2 mx-auto lg:pb-4">
           <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 ">
             <a href="#" class="flex items-center lg:justify-center">
-              <FaReact className="h-9 w-9 hover:text-gray-900" />
+              <FaReact className="h-12 w-12 hover:text-gray-900" />
             </a>
             <a
               href="#"
               class="flex items-center lg:justify-center hover:text-gray-900">
               <svg
-                class="h-9 hover:text-gray-900 "
+                class="h-12 w-12 hover:text-gray-900 "
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -170,13 +170,13 @@ function Home2() {
             </a>
 
             <a href="#" class="flex items-center lg:justify-center">
-              <SiMongodb className="h-8 w-8 hover:text-gray-900 " />
+              <SiMongodb className="h-12 w-12 hover:text-gray-900 " />
             </a>
             <a href="#" class="flex items-center lg:justify-center">
-              <SiRazorpay className="h-8 w-8 hover:text-gray-900 " />
+              <SiRazorpay className="h-12 w-12 hover:text-gray-900 " />
             </a>
             <a href="#" class="flex items-center lg:justify-center">
-              <SiSocketdotio className="h-9 w-9 hover:text-gray-900 " />
+              <SiSocketdotio className="h-12 w-12 hover:text-gray-900 " />
             </a>
           </div>
         </div>
