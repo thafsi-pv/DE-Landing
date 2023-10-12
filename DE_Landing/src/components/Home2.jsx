@@ -1,8 +1,17 @@
 import React from "react";
 import home from "../assets/video/home2.mp4";
 import { FaReact } from "react-icons/fa";
-import { SiMongodb, SiRazorpay, SiSocketdotio } from "react-icons/si";
+import {
+  SiCivicrm,
+  SiMongodb,
+  SiRazorpay,
+  SiSocketdotio,
+} from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
+import { HiDocumentReport } from "react-icons/hi";
+import { MdInventory2 } from "react-icons/md";
+import { BsFillDisplayFill } from "react-icons/bs";
+import { AiOutlineCloudServer } from "react-icons/ai";
 import feature2 from "../assets/img/feature2.png";
 import feature1 from "../assets/img/feature-1.png";
 import delogo from "../assets/img/deLogo.png";
@@ -27,8 +36,8 @@ function Home2() {
               <a
                 target="_blank"
                 href="https://dine-ease-pos.onrender.com/"
-                class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0   focus:outline-none ">
-                Try demo
+                class="text-white bg-green-700 hover:bg- focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0   focus:outline-none ">
+                Try Demo
               </a>
             </div>
             <div
@@ -38,7 +47,7 @@ function Home2() {
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 "
+                    class="block py-2 pl-3 pr-4 text-white bg-green-700 rounded lg:bg-transparent lg:text-green-700 lg:p-0 "
                     aria-current="page">
                     Home
                   </a>
@@ -46,21 +55,21 @@ function Home2() {
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0  lg: ">
+                    class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0  lg: ">
                     Dashboard
                   </a>
                 </li>
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0  lg: ">
+                    class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0  lg: ">
                     Features
                   </a>
                 </li>
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0  lg: ">
+                    class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0  lg: ">
                     Contact
                   </a>
                 </li>
@@ -74,12 +83,13 @@ function Home2() {
       <section class="bg-white ">
         <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-violet-500 max-w-2xl mb-4 text-4xl 
-            font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl py-3 text-green-800 rounded-lg">
+            <h1
+              class="bg-clip-text text-transparent bg-gradient-to-r from-[#068e77] to-green-500 max-w-2xl mb-4 text-4xl 
+            font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl py-3 text- rounded-lg">
               Simplifying Restaurant <br />
               Management.
             </h1>
-            
+
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
               Streamline your restaurant operations with our user-friendly
               platform, offering effortless order management, payment
@@ -187,12 +197,12 @@ function Home2() {
           <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
             <div class="text-gray-500 sm:text-lg ">
               <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 ">
-                Work with tools you already use
+                Dashboard
               </h2>
               <p class="mb-8 font-light lg:text-xl">
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease.
+                Empower Your Restaurant with Data-Driven Decisions. Real-time
+                analytics for better service and higher profits. Effortlessly
+                manage your restaurant's performance.
               </p>
               {/* <!-- List --> */}
               <ul
@@ -201,7 +211,7 @@ function Home2() {
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -211,13 +221,14 @@ function Home2() {
                       clip-rule="evenodd"></path>
                   </svg>
                   <span class="text-base font-medium leading-tight text-gray-900 ">
-                    Continuous integration and deployment
+                    Maximize Profits - Identify high-margin dishes and promote
+                    them.
                   </span>
                 </li>
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -227,13 +238,13 @@ function Home2() {
                       clip-rule="evenodd"></path>
                   </svg>
                   <span class="text-base font-medium leading-tight text-gray-900 ">
-                    Development workflow
+                    Optimize Staffing - Schedule shifts based on peak hours.
                   </span>
                 </li>
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -243,13 +254,14 @@ function Home2() {
                       clip-rule="evenodd"></path>
                   </svg>
                   <span class="text-base font-medium leading-tight text-gray-900 ">
-                    Knowledge management
+                    Enhance Service - Improve table turnaround times.
                   </span>
                 </li>
               </ul>
               <p class="mb-8 font-light lg:text-xl">
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions.
+                DineEase POS offers a comprehensive dashboard with data
+                visualization tools, enabling restaurant owners to make informed
+                decisions, enhance customer service, and boost revenue.
               </p>
             </div>
             <img
@@ -280,7 +292,7 @@ function Home2() {
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -296,7 +308,7 @@ function Home2() {
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -312,7 +324,7 @@ function Home2() {
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -328,7 +340,7 @@ function Home2() {
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -338,13 +350,13 @@ function Home2() {
                       clip-rule="evenodd"></path>
                   </svg>
                   <span class="text-base font-medium leading-tight text-gray-900 ">
-                    Table Reservations
+                    Lock Screen
                   </span>
                 </li>
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -360,7 +372,7 @@ function Home2() {
                 <li class="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    class="flex-shrink-0 w-5 h-5 text-[#068e77]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -387,109 +399,73 @@ function Home2() {
       <section class="bg-white ">
         <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
           <div class="col-span-2 mb-8">
-            <p class="text-lg font-medium text-purple-600 ">
-              Trusted Worldwide
+            <p class="text-2xl font-bold text-[#068e77] ">
+              More upcoming features
             </p>
-            <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl ">
+            {/* <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl ">
               Trusted by over 600 million users and 10,000 teams
-            </h2>
+            </h2> */}
             <p class="font-light text-gray-500 sm:text-xl ">
-              Our rigorous security and compliance standards are at the heart of
-              all we do. We work tirelessly to protect you and your customers.
+              DineEase POS is constantly evolving to meet the dynamic needs of
+              the restaurant industry. Here's a sneak peek at our upcoming
+              features that will elevate your restaurant management
             </p>
-            <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
-              <div>
-                <a
-                  href="#"
-                  class="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800  dark:hover:text-purple-700">
-                  Explore Legality Guide
-                  <svg
-                    class="w-5 h-5 ml-1"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      fill-rule="evenodd"
-                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"></path>
-                  </svg>
-                </a>
+
+            <div className="flex gap-3 my-14">
+              <div className="flex-1">
+                <MdInventory2 className="w-10 h-10 mb-2 text-[#068e77] md:w-12 md:h-12 " />
+                <h3 class="mb-2 text-2xl font-bold ">Inventory Management</h3>
+                <p class="font-light text-gray-500 ">
+                  Improved ingredient-level management to prevent shortages.
+                </p>
               </div>
-              <div>
-                <a
-                  href="#"
-                  class="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800  dark:hover:text-purple-700">
-                  Visit the Trust Center
-                  <svg
-                    class="w-5 h-5 ml-1"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      fill-rule="evenodd"
-                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"></path>
-                  </svg>
-                </a>
+              <div className="flex-1">
+                <SiCivicrm class="w-10 h-10 mb-2 text-[#068e77] md:w-12 md:h-12 " />
+                <h3 class="mb-2 text-2xl font-bold ">CRM</h3>
+                <p class="font-light text-gray-500 ">
+                  Integrated CRM system to build and maintain strong customer
+                  relationships
+                </p>
               </div>
             </div>
           </div>
           <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
             <div>
-              <svg
-                class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 "
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill-rule="evenodd"
-                  d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z"
-                  clip-rule="evenodd"></path>
-              </svg>
-              <h3 class="mb-2 text-2xl font-bold ">99.99% uptime</h3>
+              <HiDocumentReport className="w-10 h-10 mb-2 text-[#068e77] md:w-12 md:h-12 " />
+              <h3 class="mb-2 text-2xl font-bold ">Advanced Reports</h3>
               <p class="font-light text-gray-500 ">
-                For Landwind, with zero maintenance downtime
+                Advanced reporting tools for in-depth insights into your
+                restaurant's performance.
               </p>
             </div>
             <div>
               <svg
-                class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 "
+                class="w-10 h-10 mb-2 text-[#068e77] md:w-12 md:h-12 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path>
               </svg>
-              <h3 class="mb-2 text-2xl font-bold ">600M+ Users</h3>
+              <h3 class="mb-2 text-2xl font-bold ">Table Reservation</h3>
               <p class="font-light text-gray-500 ">
-                Trusted by over 600 milion users around the world
+                Reduce wait times and improve customer satisfaction.
               </p>
             </div>
             <div>
-              <svg
-                class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 "
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
-                  clip-rule="evenodd"></path>
-              </svg>
-              <h3 class="mb-2 text-2xl font-bold ">100+ countries</h3>
+              <BsFillDisplayFill class="w-10 h-10 mb-2 text-[#068e77] md:w-12 md:h-12 " />
+              <h3 class="mb-2 text-2xl font-bold ">Kitchen Display System</h3>
               <p class="font-light text-gray-500 ">
-                Have used Landwind to create functional websites
+                Efficient communication between kitchen staff and servers
               </p>
             </div>
             <div>
-              <svg
-                class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 "
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
-              </svg>
-              <h3 class="mb-2 text-2xl font-bold ">5+ Million</h3>
-              <p class="font-light text-gray-500 ">Transactions per day</p>
+              <AiOutlineCloudServer class="w-10 h-10 mb-2 text-[#068e77] md:w-12 md:h-12 " />
+              <h3 class="mb-2 text-2xl font-bold ">
+                Online Ordering Integration
+              </h3>
+              <p class="font-light text-gray-500 ">
+                Seamless integration with popular food delivery platforms
+              </p>
             </div>
           </div>
         </div>
@@ -511,13 +487,14 @@ function Home2() {
             </svg>
             <blockquote>
               <p class="text-xl font-medium text-gray-900 md:text-2xl ">
-                "Landwind is just awesome. It contains tons of predesigned
-                components and pages starting from login screen to complex
-                dashboard. Perfect choice for your next SaaS application."
+                "DineEase POS has revolutionized the way we manage our
+                restaurant. It's a game-changer for our business. The robust
+                features, intuitive interface, and top-notch support have made a
+                significant impact on our daily operations."
               </p>
             </blockquote>
             <figcaption class="flex items-center justify-center mt-6 space-x-3">
-              {/* <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture > */}
+              <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture" />
               <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                 <div class="pr-3 font-medium text-gray-900 ">Micheal Gough</div>
                 <div class="pl-3 text-sm font-light text-gray-500 ">
@@ -542,14 +519,14 @@ function Home2() {
             </p>
             <a
               href="#"
-              class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2   focus:outline-none ">
+              class="text-white bg-green-700 hover:bg- focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2   focus:outline-none ">
               Free trial for 30 days
             </a>
           </div>
         </div>
       </section>
 
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <div class="relative mx-auto border-gray-300  bg-gray-300 border-[12px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
           <div class="rounded-xl overflow-hidden h-[140px] md:h-[262px]">
             <div className="w-full h-full">
@@ -562,7 +539,7 @@ function Home2() {
         </div>
         <div class="relative mx-auto bg-gray-400  rounded-b-xl h-[24px] max-w-[301px] md:h-[42px] md:max-w-[512px]"></div>
         <div class="relative mx-auto bg-gray-400 rounded-b-xl h-[55px] max-w-[83px] md:h-[95px] md:max-w-[142px]"></div>
-      </div>
+      </div> */}
       {/* <!-- End block --> */}
       <footer class="bg-white ">
         <div class="max-w-screen-xl p-4 py-2 mx-auto lg:py-16 md:p-8 lg:p-10">
@@ -572,7 +549,7 @@ function Home2() {
               href="#"
               class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 ">
               <img
-                src="./images/logo.svg"
+                src={delogo}
                 class="h-6 mr-3 sm:h-9"
                 alt="Landwind Logo"
               />
@@ -585,7 +562,7 @@ function Home2() {
                 "-" +
                 (parseInt(new Date().getFullYear()) + parseInt(1)) +
                 " "}
-              DineEase™. All Rights Reserved. Built with{" "}
+              DineEase™. All Rights Reserved.
             </span>
             <ul class="flex justify-center mt-5 space-x-5">
               <li>
