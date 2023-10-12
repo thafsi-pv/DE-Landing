@@ -110,7 +110,7 @@ function Home2() {
             </div>
           </div>
         </nav>
-      </header>
+      </header> 
 
       {/* <!-- Start block --> */}
       <section class="bg-white ">
