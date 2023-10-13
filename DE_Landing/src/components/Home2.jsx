@@ -20,7 +20,7 @@ import Typewriter from "typewriter-effect";
 
 function Home2() {
   return (
-    <body>
+    <div>
       <header class="fixed w-full z-10 ">
         <nav class=" border-gray-200 py-3.5 backdrop-blur-lg">
           <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
@@ -65,7 +65,7 @@ function Home2() {
                   <a
                     href="#"
                     class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0  lg: ">
-                    Features
+                    POS
                   </a>
                 </li>
                 <li>
@@ -93,7 +93,7 @@ function Home2() {
             </h1> */}
             <h1
               className="bg-clip-text text-transparent bg-gradient-to-r from-[#068e77] to-green-500 max-w-2xl mb-4 text-3xl 
-            font-extrabold leading-none tracking-tight md:text-4xl xl:text-5xl py-3 text- rounded-lg h-28">
+            font-extrabold leading-none tracking-tight md:text-4xl xl:text-5xl py-3 text- rounded-lg h-32">
               <Typewriter
                 options={{
                   strings: [
@@ -135,14 +135,15 @@ function Home2() {
                 View on GitHub
               </a>
               <a
-                href="https://www.figma.com/community/file/1125744163617429490"
+                target="_blank"
+                href="https://dine-ease-pos.onrender.com/"
                 class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 ">
                 <span className="flex items-center">
                   <img
                     src={delogo}
-                    alt="df"
+                    alt="DE"
                     class="w-4 h-4 mr-2 text-gray-500 "
-                  />{" "}
+                  />
                   Try Demo
                 </span>
               </a>
@@ -182,8 +183,7 @@ function Home2() {
             <a
               href="#"
               class="flex items-center lg:justify-center hover:text-gray-900">
-              
-              <SiExpress className="h-12 w-12 text-white hover:text-gray-900 "/>
+              <SiExpress className="h-12 w-12 text-white hover:text-gray-900 " />
             </a>
             <a href="#" class="flex items-center lg:justify-center">
               <DiNodejs class="h-24 w-24 text-white hover:text-gray-900 " />
@@ -541,22 +541,6 @@ function Home2() {
           </div>
         </div>
       </section>
-
-      {/* <div className="mt-10">
-        <div class="relative mx-auto border-gray-300  bg-gray-300 border-[12px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
-          <div class="rounded-xl overflow-hidden h-[140px] md:h-[262px]">
-            <div className="w-full h-full">
-              <video autoPlay loop muted className="w-full h-full object-fill">
-                <source src={home} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-        <div class="relative mx-auto bg-gray-400  rounded-b-xl h-[24px] max-w-[301px] md:h-[42px] md:max-w-[512px]"></div>
-        <div class="relative mx-auto bg-gray-400 rounded-b-xl h-[55px] max-w-[83px] md:h-[95px] md:max-w-[142px]"></div>
-      </div> */}
-      {/* <!-- End block --> */}
       <footer class="bg-white ">
         <div class="max-w-screen-xl p-4 py-2 mx-auto lg:py-16 md:p-8 lg:p-10">
           <hr class="my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
@@ -652,8 +636,7 @@ function Home2() {
           </div>
         </div>
       </footer>
-      {/* <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script> */}
-    </body>
+    </div>
   );
 }
 
