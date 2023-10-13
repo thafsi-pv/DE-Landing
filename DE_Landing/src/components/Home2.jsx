@@ -494,11 +494,15 @@ function Home2() {
               </p>
             </blockquote>
             <figcaption class="flex items-center justify-center mt-6 space-x-3">
-              <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture" />
+              <img
+                class="w-6 h-6 rounded-full"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                alt="profile picture"
+              />
               <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                 <div class="pr-3 font-medium text-gray-900 ">Micheal Gough</div>
                 <div class="pl-3 text-sm font-light text-gray-500 ">
-                  CEO at Google
+                  Tasty Bites Café
                 </div>
               </div>
             </figcaption>
@@ -515,12 +519,12 @@ function Home2() {
               Start your free trial today
             </h2>
             <p class="mb-6 font-light text-gray-500  md:text-lg">
-              Try Landwind Platform for 30 days. No credit card required.
+              Try DineEase Platform. No credit card required.
             </p>
             <a
-              href="#"
+              href="https://dine-ease-pos.onrender.com/"
               class="text-white bg-green-700 hover:bg- focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2   focus:outline-none ">
-              Free trial for 30 days
+              Try Demo
             </a>
           </div>
         </div>
@@ -548,11 +552,7 @@ function Home2() {
             <a
               href="#"
               class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 ">
-              <img
-                src={delogo}
-                class="h-6 mr-3 sm:h-9"
-                alt="Landwind Logo"
-              />
+              <img src={delogo} class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
               DineEase
             </a>
             <span class="block text-sm text-center text-gray-500 ">
