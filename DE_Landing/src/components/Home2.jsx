@@ -15,6 +15,7 @@ import { AiOutlineCloudServer } from "react-icons/ai";
 import feature2 from "../assets/img/feature2.png";
 import feature1 from "../assets/img/feature-1.png";
 import delogo from "../assets/img/deLogo.png";
+import Typewriter from "typewriter-effect";
 
 function Home2() {
   return (
@@ -83,11 +84,33 @@ function Home2() {
       <section class="bg-white ">
         <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <h1
+            {/* <h1
               class="bg-clip-text text-transparent bg-gradient-to-r from-[#068e77] to-green-500 max-w-2xl mb-4 text-4xl 
             font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl py-3 text- rounded-lg">
               Simplifying Restaurant <br />
               Management.
+            </h1> */}
+            <h1
+              className="bg-clip-text text-transparent bg-gradient-to-r from-[#068e77] to-green-500 max-w-2xl mb-4 text-3xl 
+            font-extrabold leading-none tracking-tight md:text-4xl xl:text-5xl py-3 text- rounded-lg">
+              <Typewriter
+                options={{
+                  strings: [
+                    "Elevating Dining Experiences",
+                    "Reinventing Restaurant Efficiency",
+                    "Simplifying Restaurant Operations",
+                    "Streamlining Your Success",
+                    "Empowering Restaurant Owners",
+                    "Innovating the Future of Dining",
+                    "Enhancing Customer Satisfaction",
+                    "Seamless Restaurant Management",
+                    "Revolutionizing Your Restaurant",
+                    "Your Recipe for Success",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </h1>
 
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
