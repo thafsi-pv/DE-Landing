@@ -3,6 +3,7 @@ import home from "../assets/video/home2.mp4";
 import { FaReact } from "react-icons/fa";
 import {
   SiCivicrm,
+  SiExpress,
   SiMongodb,
   SiRazorpay,
   SiSocketdotio,
@@ -92,7 +93,7 @@ function Home2() {
             </h1> */}
             <h1
               className="bg-clip-text text-transparent bg-gradient-to-r from-[#068e77] to-green-500 max-w-2xl mb-4 text-3xl 
-            font-extrabold leading-none tracking-tight md:text-4xl xl:text-5xl py-3 text- rounded-lg">
+            font-extrabold leading-none tracking-tight md:text-4xl xl:text-5xl py-3 text- rounded-lg h-28">
               <Typewriter
                 options={{
                   strings: [
@@ -109,6 +110,7 @@ function Home2() {
                   ],
                   autoStart: true,
                   loop: true,
+                  deleteSpeed: 5,
                 }}
               />
             </h1>
@@ -171,43 +173,30 @@ function Home2() {
       </section>
       {/* <!-- End block --> */}
       {/* <!-- Start block --> */}
-      <section class="bg-gradient-to-r from-gray-200 to-gray-100">
+      <section class="bg-[#068e77]">
         <div class="max-w-screen-xl px-4 pb-2 mx-auto lg:pb-4">
           <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 ">
             <a href="#" class="flex items-center lg:justify-center">
-              <FaReact className="h-12 w-12 hover:text-gray-900" />
+              <FaReact className="h-12 w-12 text-white hover:text-gray-900" />
             </a>
             <a
               href="#"
               class="flex items-center lg:justify-center hover:text-gray-900">
-              <svg
-                class="h-12 w-12 hover:text-gray-900 "
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="100"
-                height="100"
-                viewBox="0 0 48 48">
-                <path
-                  fill="#212121"
-                  d="M23.697,37.56h1.18c0.84,0,1.631-0.392,2.139-1.061l7.485-9.847l7.485,9.847	c0.508,0.668,1.299,1.061,2.139,1.061h1.18L35.756,25l9.121-12h-1.18c-0.84,0-1.631,0.392-2.139,1.061L34.5,23.347l-7.059-9.287	C26.933,13.392,26.142,13,25.302,13h-1.18l9.121,12L23.697,37.56z"></path>
-                <path
-                  fill="#212121"
-                  d="M24,26v-3c0-6.675-5.945-11.961-12.829-10.852C5.812,13.011,2,17.857,2,23.284L2,24v2v0.142	c0,6.553,4.777,11.786,10.868,11.858c5.092,0.06,9.389-3.344,10.707-7.999h-1.028c-0.62,0-1.182,0.355-1.451,0.913	c-1.739,3.595-5.789,5.862-10.228,4.842C6.776,34.815,4,30.981,4,26.783V26H24z M4,23.71c0-4.708,2.804-8.557,6.924-9.478	C16.798,12.92,22,17.352,22,23v1H4V23.71z"></path>
-              </svg>
+              
+              <SiExpress className="h-12 w-12 text-white hover:text-gray-900 "/>
             </a>
             <a href="#" class="flex items-center lg:justify-center">
-              <DiNodejs class="h-24 w-24 hover:text-gray-900 " />
+              <DiNodejs class="h-24 w-24 text-white hover:text-gray-900 " />
             </a>
 
             <a href="#" class="flex items-center lg:justify-center">
-              <SiMongodb className="h-12 w-12 hover:text-gray-900 " />
+              <SiMongodb className="h-12 w-12 text-white hover:text-gray-900 " />
             </a>
             <a href="#" class="flex items-center lg:justify-center">
-              <SiRazorpay className="h-12 w-12 hover:text-gray-900 " />
+              <SiRazorpay className="h-12 w-12 text-white hover:text-gray-900 " />
             </a>
             <a href="#" class="flex items-center lg:justify-center">
-              <SiSocketdotio className="h-12 w-12 hover:text-gray-900 " />
+              <SiSocketdotio className="h-12 w-12 text-white hover:text-gray-900 " />
             </a>
           </div>
         </div>
