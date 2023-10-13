@@ -502,7 +502,7 @@ function Home2() {
               <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                 <div class="pr-3 font-medium text-gray-900 ">Micheal Gough</div>
                 <div class="pl-3 text-sm font-light text-gray-500 ">
-                  Tasty Bites Café
+                  Tasty Bites Cafe
                 </div>
               </div>
             </figcaption>
